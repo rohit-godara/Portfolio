@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background: #000;
+    color: white;
+}
+.main #page1 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.main #page1 .header .links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}
+.center h2{
+    padding: 60px 0;
+    font-size: 90px;
+    line-height: 80px;
+}
+
+/* P2 */
+#page2{
+    height: 650px;
+    margin-top: 100px;
+    background: url(./assets/p2BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 80px;
+}
+#page2 h3{
+    font-size: 45px;
+}
+#page2 p{
+    font-size: 25px;
+    padding: 10px 0 60px 0;
+}
+#page2 button{
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+}
+#page2 button:hover{
+    color: white;
+    background: #000;
+    cursor: pointer;
+}
