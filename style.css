@@ -59,3 +59,26 @@ body,html{
     background: #000;
     cursor: pointer;
 }
+
+/* P3 */
+#page3{
+    margin-bottom: 20px;
+}
+#page3 .projects .project img{
+    height: 290px;
+    width: auto;
+}
+
+#page3 .projects{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+#page3 .projects .project h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+#page3 .projects .project p{
+    font-size: 15px;
+}
