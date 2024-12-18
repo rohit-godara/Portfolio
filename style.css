@@ -168,7 +168,7 @@ footer button{
 
 @media (max-width:700px) {
     #page3 .projects .project img{
-        width: 34vw;
+        width: 32vw;
     }
     .hid{
         display: none;
@@ -178,5 +178,9 @@ footer button{
     }
     .cForm{
         margin-top: 35vmax;
+    }
+    #page5 .contact{
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 10% 90%;
     }
 }
