@@ -216,9 +216,21 @@ footer button{
     .hid{
         display: none;
     }
+    #page3 .projects{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #page3 .projects .project img{
+        width: 72vw;
+    }
     #page4{
         grid-template-columns: 100%;
     }
+    #page4 h2{
+        text-align: center;
+    }
+    
     .cForm{
         margin-top: 35vmax;
     }
